@@ -27,10 +27,13 @@ export default function ProductPreviewCard() {
         </div>
         <button
           className={styles.AddToCartBtn}
+          type="button"
           aria-label="Add Gabrielle Essence to cart"
         >
-          <img src="/icon-cart.svg" alt="Add to cart icon" />
-          <p className={`TextPresetTwo ${styles.AddCartText}`}>Add to Cart</p>
+          <img src="/icon-cart.svg" alt="" aria-hidden="true" />
+          <span className={`TextPresetTwo ${styles.AddCartText}`}>
+            Add to Cart
+          </span>
         </button>
       </section>
     </article>
